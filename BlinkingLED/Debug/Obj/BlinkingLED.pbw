@@ -1,0 +1,240 @@
+[
+  {
+    "ID": "c:main.c@8@macro@clock_gating_REG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "clock_gating_REG",
+    "location": {
+      "column": "9",
+      "line": "1",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\BlinkingLED\\main.c"
+    },
+    "name": "clock_gating_REG",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@155@macro@direction_REG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "direction_REG",
+    "location": {
+      "column": "9",
+      "line": "3",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\BlinkingLED\\main.c"
+    },
+    "name": "direction_REG",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@276@macro@digital_function_REG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "digital_function_REG",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\BlinkingLED\\main.c"
+    },
+    "name": "digital_function_REG",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@381@macro@LED",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LED",
+    "location": {
+      "column": "9",
+      "line": "7",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\BlinkingLED\\main.c"
+    },
+    "name": "LED",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@delay",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void delay(int)",
+    "location": {
+      "column": "6",
+      "line": "11",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\BlinkingLED\\main.c"
+    },
+    "name": "delay",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@red",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void red(void)",
+    "location": {
+      "column": "6",
+      "line": "14",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\BlinkingLED\\main.c"
+    },
+    "name": "red",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@blue",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void blue(void)",
+    "location": {
+      "column": "6",
+      "line": "16",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\BlinkingLED\\main.c"
+    },
+    "name": "blue",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@green",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void green(void)",
+    "location": {
+      "column": "6",
+      "line": "18",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\BlinkingLED\\main.c"
+    },
+    "name": "green",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@off",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void off(void)",
+    "location": {
+      "column": "6",
+      "line": "20",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\BlinkingLED\\main.c"
+    },
+    "name": "off",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@red",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void red(void)",
+    "location": {
+      "column": "6",
+      "line": "23",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\BlinkingLED\\main.c"
+    },
+    "name": "red",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@blue",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void blue(void)",
+    "location": {
+      "column": "6",
+      "line": "28",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\BlinkingLED\\main.c"
+    },
+    "name": "blue",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@green",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void green(void)",
+    "location": {
+      "column": "6",
+      "line": "33",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\BlinkingLED\\main.c"
+    },
+    "name": "green",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@off",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void off(void)",
+    "location": {
+      "column": "6",
+      "line": "38",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\BlinkingLED\\main.c"
+    },
+    "name": "off",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "43",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\BlinkingLED\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@delay",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void delay(int)",
+    "location": {
+      "column": "6",
+      "line": "66",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\BlinkingLED\\main.c"
+    },
+    "name": "delay",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1844@F@delay@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "10",
+      "line": "68",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\BlinkingLED\\main.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1851@F@delay@j",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "j",
+    "location": {
+      "column": "17",
+      "line": "68",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\BlinkingLED\\main.c"
+    },
+    "name": "j",
+    "origin": "project_file",
+    "scope": null
+  }
+]

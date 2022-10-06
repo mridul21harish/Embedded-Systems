@@ -1,0 +1,394 @@
+[
+  {
+    "ID": "c:main.c@32@macro@SYSCTL_RCGCGPIO_R",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SYSCTL_RCGCGPIO_R",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\Experiment3\\main.c"
+    },
+    "name": "SYSCTL_RCGCGPIO_R",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@107@macro@GPIO_PORTF_DIR_R",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTF_DIR_R",
+    "location": {
+      "column": "9",
+      "line": "3",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\Experiment3\\main.c"
+    },
+    "name": "GPIO_PORTF_DIR_R",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@182@macro@GPIO_PORTF_DEN_R",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTF_DEN_R",
+    "location": {
+      "column": "9",
+      "line": "4",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\Experiment3\\main.c"
+    },
+    "name": "GPIO_PORTF_DEN_R",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@257@macro@GPIO_PORTF_LOCK_R",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTF_LOCK_R",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\Experiment3\\main.c"
+    },
+    "name": "GPIO_PORTF_LOCK_R",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@332@macro@GPIO_PORTF_CR_R",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTF_CR_R",
+    "location": {
+      "column": "9",
+      "line": "6",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\Experiment3\\main.c"
+    },
+    "name": "GPIO_PORTF_CR_R",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@407@macro@GPIO_PORTF_PUR_R",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTF_PUR_R",
+    "location": {
+      "column": "9",
+      "line": "7",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\Experiment3\\main.c"
+    },
+    "name": "GPIO_PORTF_PUR_R",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@482@macro@GPIO_PORTF_DATA_R",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTF_DATA_R",
+    "location": {
+      "column": "9",
+      "line": "8",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\Experiment3\\main.c"
+    },
+    "name": "GPIO_PORTF_DATA_R",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@559@macro@SW1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SW1",
+    "location": {
+      "column": "9",
+      "line": "10",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\Experiment3\\main.c"
+    },
+    "name": "SW1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@629@macro@SW2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SW2",
+    "location": {
+      "column": "9",
+      "line": "11",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\Experiment3\\main.c"
+    },
+    "name": "SW2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@727@macro@RED",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RED",
+    "location": {
+      "column": "9",
+      "line": "14",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\Experiment3\\main.c"
+    },
+    "name": "RED",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@746@macro@BLUE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BLUE",
+    "location": {
+      "column": "9",
+      "line": "15",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\Experiment3\\main.c"
+    },
+    "name": "BLUE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@766@macro@GREEN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GREEN",
+    "location": {
+      "column": "9",
+      "line": "16",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\Experiment3\\main.c"
+    },
+    "name": "GREEN",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@787@macro@MAGENTA",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "MAGENTA",
+    "location": {
+      "column": "9",
+      "line": "17",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\Experiment3\\main.c"
+    },
+    "name": "MAGENTA",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@827@macro@CYAN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CYAN",
+    "location": {
+      "column": "9",
+      "line": "18",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\Experiment3\\main.c"
+    },
+    "name": "CYAN",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@868@macro@YELLOW",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "YELLOW",
+    "location": {
+      "column": "9",
+      "line": "19",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\Experiment3\\main.c"
+    },
+    "name": "YELLOW",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@908@macro@WHITE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "WHITE",
+    "location": {
+      "column": "9",
+      "line": "20",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\Experiment3\\main.c"
+    },
+    "name": "WHITE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@955@macro@LED_OFF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LED_OFF",
+    "location": {
+      "column": "9",
+      "line": "21",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\Experiment3\\main.c"
+    },
+    "name": "LED_OFF",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1005@macro@BUTTON_PRESSED",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BUTTON_PRESSED",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\Experiment3\\main.c"
+    },
+    "name": "BUTTON_PRESSED",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@simulate_switch",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int simulate_switch(int)",
+    "location": {
+      "column": "5",
+      "line": "26",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\Experiment3\\main.c"
+    },
+    "name": "simulate_switch",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1143@F@simulate_switch@flag",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "flag",
+    "location": {
+      "column": "7",
+      "line": "28",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\Experiment3\\main.c"
+    },
+    "name": "flag",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "58",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\Experiment3\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@2328@F@main@Primary",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "Primary",
+    "location": {
+      "column": "7",
+      "line": "73",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\Experiment3\\main.c"
+    },
+    "name": "Primary",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@2368@F@main@Secondary",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "Secondary",
+    "location": {
+      "column": "7",
+      "line": "74",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\Experiment3\\main.c"
+    },
+    "name": "Secondary",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@2415@F@main@itr",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "itr",
+    "location": {
+      "column": "7",
+      "line": "75",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\Experiment3\\main.c"
+    },
+    "name": "itr",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@2431@F@main@index",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "index",
+    "location": {
+      "column": "7",
+      "line": "76",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\Experiment3\\main.c"
+    },
+    "name": "index",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@2514@F@main@flag",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "flag",
+    "location": {
+      "column": "9",
+      "line": "80",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\Experiment3\\main.c"
+    },
+    "name": "flag",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@2687@F@main@index",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "index",
+    "location": {
+      "column": "18",
+      "line": "87",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\Experiment3\\main.c"
+    },
+    "name": "index",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@2858@F@main@index",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "index",
+    "location": {
+      "column": "18",
+      "line": "94",
+      "path": "C:\\Users\\hp\\OneDrive\\Desktop\\EMBEDDED SYSTEMS\\Experiment3\\main.c"
+    },
+    "name": "index",
+    "origin": "project_file",
+    "scope": null
+  }
+]

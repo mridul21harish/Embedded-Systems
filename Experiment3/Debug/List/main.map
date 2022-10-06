@@ -1,0 +1,194 @@
+###############################################################################
+#
+# IAR ELF Linker V8.50.9.278/W32 for ARM                  09/Feb/2021  09:42:58
+# Copyright 2007-2020 IAR Systems AB.
+#
+#    Output file  =
+#        C:\Users\hp\OneDrive\Desktop\EMBEDDED
+#        SYSTEMS\Experiment3\Debug\Exe\main.out
+#    Map file     =
+#        C:\Users\hp\OneDrive\Desktop\EMBEDDED
+#        SYSTEMS\Experiment3\Debug\List\main.map
+#    Command line =
+#        -f C:\Users\hp\AppData\Local\Temp\EWDD40.tmp
+#        ("C:\Users\hp\OneDrive\Desktop\EMBEDDED
+#        SYSTEMS\Experiment3\Debug\Obj\main.o" --no_out_extension -o
+#        "C:\Users\hp\OneDrive\Desktop\EMBEDDED
+#        SYSTEMS\Experiment3\Debug\Exe\main.out" --redirect
+#        _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb --map
+#        "C:\Users\hp\OneDrive\Desktop\EMBEDDED
+#        SYSTEMS\Experiment3\Debug\List\main.map" --config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\CONFIG\generic_cortex.icf" --semihosting --entry
+#        __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because some modules are built with
+size limitations (and not runtime checking), and --advanced_heap
+was not specified.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x0 { ro section .intvec };
+"P1":  place in [from 0x0 to 0x7'ffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block PROC_STACK with size = 0, alignment = 8 { };
+define block HEAP with size = 2K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'ffff] {
+          rw, block CSTACK, block PROC_STACK, block HEAP };
+
+  Section          Kind         Address   Size  Object
+  -------          ----         -------   ----  ------
+"A0":                                     0x40
+  .intvec          ro code          0x0   0x40  vector_table_M.o [3]
+                                 - 0x40   0x40
+
+"P1":                                    0x240
+  .text            ro code         0x40  0x150  main.o [1]
+  .text            ro code        0x190   0x3a  zero_init3.o [3]
+  .text            ro code        0x1ca    0x2  vector_table_M.o [3]
+  .text            ro code        0x1cc   0x28  data_init.o [3]
+  .iar.init_table  const          0x1f4   0x10  - Linker created -
+  .text            ro code        0x204   0x1e  cmain.o [3]
+  .text            ro code        0x222    0x4  low_level_init.o [2]
+  .text            ro code        0x226    0x4  exit.o [2]
+  .text            ro code        0x22c    0xa  cexit.o [3]
+  .text            ro code        0x238   0x14  exit.o [4]
+  .text            ro code        0x24c   0x1c  cstartup_M.o [3]
+  .rodata          const          0x268    0xc  main.o [1]
+  .rodata          const          0x274    0xc  main.o [1]
+  .rodata          const          0x280    0x0  zero_init3.o [3]
+                                - 0x280  0x240
+
+"P2", part 1 of 2:                         0x8
+  .bss             zero     0x2000'0000    0x4  main.o [1]
+  .bss             zero     0x2000'0004    0x4  main.o [1]
+                          - 0x2000'0008    0x8
+
+"P2", part 2 of 2:                       0x400
+  CSTACK                    0x2000'0008  0x400  <Block>
+    CSTACK         uninit   0x2000'0008  0x400  <Block tail>
+                          - 0x2000'0408  0x400
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+        0x280     0x7'ffff  0x7'fd80
+  0x2000'0408  0x2000'ffff    0xfbf8
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x8:
+          0x2000'0000   0x8
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module            ro code  ro data  rw data
+    ------            -------  -------  -------
+command line/config:
+    -------------------------------------------
+    Total:
+
+C:\Users\hp\OneDrive\Desktop\EMBEDDED SYSTEMS\Experiment3\Debug\Obj: [1]
+    main.o                336       24        8
+    -------------------------------------------
+    Total:                336       24        8
+
+dl7M_tln.a: [2]
+    exit.o                  4
+    low_level_init.o        4
+    -------------------------------------------
+    Total:                  8
+
+rt7M_tl.a: [3]
+    cexit.o                10
+    cmain.o                30
+    cstartup_M.o           28
+    data_init.o            40
+    vector_table_M.o       66
+    zero_init3.o           58
+    -------------------------------------------
+    Total:                232
+
+shb_l.a: [4]
+    exit.o                 20
+    -------------------------------------------
+    Total:                 20
+
+    Gaps                    4
+    Linker created                  16    1'024
+-----------------------------------------------
+    Grand Total:          600       40    1'032
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address  Size  Type      Object
+-----                       -------  ----  ----      ------
+.iar.init_table$$Base         0x1f4         --   Gb  - Linker created -
+.iar.init_table$$Limit        0x204         --   Gb  - Linker created -
+?main                         0x205        Code  Gb  cmain.o [3]
+CSTACK$$Base            0x2000'0008         --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'0408         --   Gb  - Linker created -
+Region$$Table$$Base           0x1f4         --   Gb  - Linker created -
+Region$$Table$$Limit          0x204         --   Gb  - Linker created -
+__cmain                       0x205        Code  Gb  cmain.o [3]
+__exit                        0x239  0x14  Code  Gb  exit.o [4]
+__iar_data_init3              0x1cd  0x28  Code  Gb  data_init.o [3]
+__iar_program_start           0x24d        Code  Gb  cstartup_M.o [3]
+__iar_zero_init3              0x191  0x3a  Code  Gb  zero_init3.o [3]
+__low_level_init              0x223   0x4  Code  Gb  low_level_init.o [2]
+__vector_table                  0x0        Data  Gb  vector_table_M.o [3]
+_call_main                    0x211        Code  Gb  cmain.o [3]
+_exit                         0x22d        Code  Gb  cexit.o [3]
+_main                         0x21b        Code  Gb  cmain.o [3]
+exit                          0x227   0x4  Code  Gb  exit.o [2]
+main                           0xaf  0xa8  Code  Gb  main.o [1]
+main{3}{4}{5}{6}{7}{8}::index
+                        0x2000'0000   0x4  Data  Lc  main.o [1]
+main{3}{4}{5}{6}{7}{9}{10}{11}::index
+                        0x2000'0004   0x4  Data  Lc  main.o [1]
+simulate_switch                0x41  0x6e  Code  Gb  main.o [1]
+
+
+[1] = C:\Users\hp\OneDrive\Desktop\EMBEDDED SYSTEMS\Experiment3\Debug\Obj
+[2] = dl7M_tln.a
+[3] = rt7M_tl.a
+[4] = shb_l.a
+
+    600 bytes of readonly  code memory
+     40 bytes of readonly  data memory
+  1'032 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
